@@ -29,7 +29,7 @@
     <title>GitHub clone</title>
   </head>
   <body>
-    <!-- Navbar Section -->
+   
     <!-- Nav Container-->
     <div class="bg-ghNav py-2">
       <!-- Nav body -->
@@ -55,7 +55,7 @@
           <!-- EO Logo-->
 
           <!--Search-->
-          <div class="hidden lg:inline" >
+          <div class="hidden lg:inline">
             <input
               class="ml-4 w-96 bg-gray-900 border border-gray-600 rounded text-sm text-gray-200 p-1 outline-none"
               type="text"
@@ -75,11 +75,13 @@
         <!-- Links on right-->
         <div class="w-1/4 flex text-right justify-end items-center">
           <!-- Icons-->
-          <div class="flex space-x-2 items-center text-sm hidden md:inline">
-            <a href="#"> <i class="fa solid fa-bell text-white hover:text-gray-400"></i></a>
-            <a href="#"><i class="fa solid fa-plus text-white hover:text-gray-400"></i></a>
-          </div>
-          <div class="ml-2 hidden md:inline">
+          <div class="md:flex space-x-2 items-center text-sm hidden">
+            <a href="#">
+              <i class="fa solid fa-bell text-white hover:text-gray-400"></i
+            ></a>
+            <a href="#"
+              ><i class="fa solid fa-plus text-white hover:text-gray-400"></i
+            ></a>
             <a href="#"
               ><img
                 class="h-8 w-8 rounded-full border border-gray-600"
@@ -90,10 +92,35 @@
           <!-- EO Icons -->
         </div>
         <!-- EO Links on right-->
+
+        <!-- Mobile menu-->
+        <button
+          type="button"
+          class="tetx-base text-gray-500 border border-gray-500 px-2 rounded-lg md:hidden items-center justify-end">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <!-- EO Mobile menu-->
       </div>
       <!-- EO Nav body -->
+      
+      <ul class="md:hidden p-2 ml-3 mt-2 space-y-1">
+        <li>
+          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Pull Request</a>
+        </li><li>
+          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Issues</a>
+        </li><li>
+          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Marquet Place</a>
+        </li><li>
+          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Explore</a>
+        </li>
+        <li>
+          <input
+              class="w-96 bg-gray-900 border border-gray-600 rounded text-sm text-gray-200 p-1 mt-2 outline-none"
+              type="text"
+              placeholder="Type '/' to search" />
+        </li>
+      </ul>
     </div>
     <!-- EO Nav Container-->
-    <!-- EO Navbar Section -->
   </body>
 </html>
