@@ -31,7 +31,7 @@
   <body>
     <!-- Navbar Section -->
     <!-- Nav Container-->
-    <div class="bg-ghNav pb-2">
+    <div class="bg-ghNav py-2">
       <!-- Nav body -->
       <div class="flex mx-4">
         <!-- Links on left-->
@@ -55,7 +55,7 @@
           <!-- EO Logo-->
 
           <!--Search-->
-          <div>
+          <div class="hidden lg:inline" >
             <input
               class="ml-4 w-96 bg-gray-900 border border-gray-600 rounded text-sm text-gray-200 p-1 outline-none"
               type="text"
@@ -63,7 +63,7 @@
           </div>
           <!-- EO Search -->
 
-          <div class="text-gray-200 text-sm ml-4">
+          <div class="text-gray-200 text-sm ml-4 hidden md:inline">
             <a class="hover:text-gray-400" href="#">Pull Request</a>
             <a class="hover:text-gray-400" href="#">Issues</a>
             <a class="hover:text-gray-400" href="#">Marketplace</a>
@@ -75,12 +75,14 @@
         <!-- Links on right-->
         <div class="w-1/4 flex text-right justify-end items-center">
           <!-- Icons-->
-          <div class="flex space-x-2 items-center">
-            <a href="#"> <i class="fa solid fa-bell text-white"></i></a>
-            <a href="#"><i class="fa solid fa-plus text-white"></i></a>
+          <div class="flex space-x-2 items-center text-sm hidden md:inline">
+            <a href="#"> <i class="fa solid fa-bell text-white hover:text-gray-400"></i></a>
+            <a href="#"><i class="fa solid fa-plus text-white hover:text-gray-400"></i></a>
+          </div>
+          <div class="ml-2 hidden md:inline">
             <a href="#"
               ><img
-                class="h-8 w-8 rounded-full border border-gray-500"
+                class="h-8 w-8 rounded-full border border-gray-600"
                 src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
                 alt="My profile"
             /></a>
