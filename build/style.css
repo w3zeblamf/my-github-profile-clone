@@ -614,14 +614,24 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+@layer {
+  body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 17 23 / var(--tw-bg-opacity));
+  }
+}
+
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
+
 .hover\:text-gray-700:hover {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
+
 @media (min-width: 768px) {
 
   .md\:inline {
@@ -636,6 +646,7 @@ video {
     display: none;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:inline {

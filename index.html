@@ -13,6 +13,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer {
+        body {
+          @apply bg-ghBody;
+        }
+      }
+    </style>
     <script>
       tailwind.config = {
         theme: {
@@ -29,7 +36,6 @@
     <title>GitHub clone</title>
   </head>
   <body>
-   
     <!-- Nav Container-->
     <div class="bg-ghNav py-2">
       <!-- Nav body -->
@@ -102,25 +108,69 @@
         <!-- EO Mobile menu-->
       </div>
       <!-- EO Nav body -->
-      
+      <!-- Mobile Menu-->
       <ul class="mobile-menu hidden p-2 ml-3 mt-2 space-y-1">
         <li>
-          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Pull Request</a>
-        </li><li>
-          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Issues</a>
-        </li><li>
-          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Marquet Place</a>
-        </li><li>
-          <a class="text-gray-400 font-medium text-sm hover:text-gray-700" href="">Explore</a>
+          <a
+            class="text-gray-400 font-medium text-sm hover:text-gray-700"
+            href=""
+            >Pull Request</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-gray-400 font-medium text-sm hover:text-gray-700"
+            href=""
+            >Issues</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-gray-400 font-medium text-sm hover:text-gray-700"
+            href=""
+            >Marquet Place</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-gray-400 font-medium text-sm hover:text-gray-700"
+            href=""
+            >Explore</a
+          >
         </li>
         <li>
           <input
-              class="w-96 bg-gray-900 border border-gray-600 rounded text-sm text-gray-200 p-1 mt-2 outline-none"
-              type="text"
-              placeholder="Type '/' to search" />
+            class="w-96 bg-gray-900 border border-gray-600 rounded text-sm text-gray-200 p-1 mt-2 outline-none"
+            type="text"
+            placeholder="Type '/' to search" />
         </li>
       </ul>
+      <!-- EO Mobile Menu-->
     </div>
     <!-- EO Nav Container-->
+    
+    <!-- Main Section -->
+    <!-- Container -->
+    <div>
+      <!-- Profile-->
+      <div>
+        <!-- Image -->
+        <div>
+           <a href="#"
+              ><img
+                class="h-260 w-260 rounded-full border border-gray-600"
+                src="https://i.ibb.co/hRYbY3Q/My-profile.jpg"
+                alt="My profile"
+            /></a>
+        </div>
+        <!-- Pofile name -->
+        <div>
+          <h1 class="text-white">Albez Figueroa</h1>
+        </div>
+      </div>
+      <!-- EO Profile-->
+    </div>
+    <!-- EO Container -->
+    <!-- EO Main Section -->
   </body>
 </html>
