@@ -4,6 +4,7 @@
   "description": "Tailwind PostCSS Starter",
   "main": "index.js",
   "scripts": {
+    "type": "module",
     "build": "postcss ./src/main.css -o ./build/style.css",
     "watch": "postcss ./src/main.css -o ./build/style.css --watch"
   },
