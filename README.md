@@ -1,6 +1,6 @@
 ## Tailwind CSS Framework (v3.3.3)
 
-### Project: 
+### Project: My GitHub Profile Clone
 
 ##
 Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
@@ -10,7 +10,7 @@ It's fast, flexible, and reliable — with zero-runtime.
 #### Screenshot:
 
 <p style= "align:center">
-  <img src="" alt="project name">
+  <img src="https://i.ibb.co/ncfNvh2/my-github-profile-clone.png" alt="my-github-profile-clone">
 </p>
 
 
